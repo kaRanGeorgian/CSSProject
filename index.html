@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Candy shop">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Karan">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<title>Candy shop</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="icon" href="images/logo.jpeg" type="image/x-icon"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo"> <i class="fa-solid fa-candy-cane"></i>candy</a> 
+
+<!--nav bar code-->
+<nav class="navbar">
+    <a href="#Home">Home</a>
+    <a href="#Features">Features</a>
+    <a href="#Products">Products</a>
+    <a href="#Review">Rewiew</a>
+</nav>   
+<div class="icons">
+<div class="fa fa-bars" id="menu-btn"></div>
+<div class="fa fa-search" id="search-btn"></div>
+<div class="fa fa-shopping-cart" id="cart-btn"></div>
+<div class= "fa fa-user" id="login-btn"></div>
+</div>
+
+
+<form class=" search-form">
+<input type="search" id="search-box" placeholder="Search Here .....">
+<label for="search-box" class="fa fa-search"></label>
+</form> 
+
+<form action="#" class="login-form">
+    <h3>Login now</h3>
+    <input type="email" placeholder= "your email" class="box">
+    <input type="password" placeholder="your password" class= "box">
+    <p>Forget Your Password<a href="#"> Click Here</a></p>
+    <p>Don't have a account<a href="#"> Create Now</a></p>
+    <input type="submit" value= "Login Now" class= "btn">
+</form>
+
+</header>
+<!-- banner -->
+<section class="home" id="home">
+    <div class="content">
+        <img src="images/image10.png" alt="candy" style="float: left; margin-right: 10px;"/>
+        <h3><span>Candy</span> - Bring people Close</h3>
+        <p>"Hey there! Ready to satisfy your sweet tooth at the candy shop? 🍭🍬"</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+</section>
+
+<!--Product-->
+<section class="products" id="products">
+    <h1 class="heading">our<span>Candies</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <image src="images/image1.png" alt="image1"/>
+                 <h1>Alpenliebe Gold</h1>  
+                 <div class="price">$9.99/ - 12.99/</div> 
+                 <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                 </div>
+                 <a href="" class="btn" >Add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <image src="images/strawberry.webp" alt="image2"/>
+                 <h1>Strawberry</h1>  
+                 <div class="price">$9.99/ - 15.99/</div> 
+                 <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                 </div>
+                 <a href="" class="btn" >Add to cart</a>
+                </div>
+                 <div class="swiper-slide box">
+                    <image src="images/watermelon.webp" alt="image3"/>
+                     <h1> Watermelon</h1>  
+                     <div class="price">$9.99/ - 13.99/</div> 
+                     <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                     </div>
+                     <a href="" class="btn" >Add to cart</a>
+                    </div>
+                     <div class="swiper-slide box">
+                        <image src="images/image4.png" alt="image4"/>
+                         <h1>Alpenliebe milk</h1>  
+                         <div class="price">$9.99/ - 12.99/</div> 
+                         <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                         </div>
+                         <a href="" class="btn" >Add to cart</a>
+                        </div>
+                         <div class="swiper-slide box">
+                            <image src="images/coffee.webp" alt="image5"/>
+                             <h1>Coffee</h1>  
+                             <div class="price">$9.99/ - 16.99/</div> 
+                             <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                             </div>
+                             <a href="" class="btn" >Add to cart</a>
+                            </div>
+                           
+    </div>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <image src="images/image18.png" alt="image7"/>
+                 <h1> Chocko chew</h1>  
+                 <div class="price">$19.99/ - 22.99/</div> 
+                 <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                 </div>
+                 <a href="" class="btn" >Add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <image src="images/image17.png" alt="image8"/>
+                 <h1>Choco milk</h1>  
+                 <div class="price">$9.99/ - 16.99/</div> 
+                 <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                 </div>
+                 <a href="" class="btn" >Add to cart</a>
+                </div>
+                 <div class="swiper-slide box">
+                    <image src="images/image16.png" alt="image9"/>
+                     <h1>Bubblegum</h1>  
+                     <div class="price">$9.99/ - 14.99/</div> 
+                     <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                     </div>
+                     <a href="" class="btn" >Add to cart</a>
+                    </div>
+                     <div class="swiper-slide box">
+                        <image src="images/image15.png" alt="image10"/>
+                         <h1> Orange</h1>  
+                         <div class="price">$9.99/ - 17.99/</div> 
+                         <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                         </div>
+                         <a href="" class="btn" >Add to cart</a>
+                        </div>
+                         <div class="swiper-slide box">
+                            <image src="images/image19.png" alt="image11"/>
+                             <h1>Gold strawberry</h1>  
+                             <div class="price">$5.99/ - 8.99/</div> 
+                             <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                             </div>
+                             <a href="" class="btn" >Add to cart</a>
+                            </div>
+                             <div class="swiper-slide box">
+                                <image src="images/image20.png" alt="image12"/>
+                                 <h1>Caramel</h1>  
+                                 <div class="price">$5.99/ - 10.99/</div> 
+                                 <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half"></i>
+                                 </div>
+                                 <a href="" class="btn" >Add to cart</a>
+            </div>   
+    </div>
+</section>
+<!--review code-->
+<section class="review" id="review">
+   <h1 class="heading">Customer's<span>Review</span></h1>
+
+   <div class="swiper review-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide box">
+            <img src="images/image11.jpeg" alt="image13"/>
+            <p>Absolutely addictive! The creamy texture and the burst of flavors in each piece keep me coming back for more.</p>
+            <h3>Peter</h3>
+            <div class="stars">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide box">
+            <img src="images/image12.jpeg" alt="image14"/>
+            <p>Alpenliebe candies are my go-to whenever I need a little pick-me-up. The assorted flavors cater to my mood, and they're perfect for curbing my sweet cravings without being overwhelmingly sugary.</p>
+            <h3>Jhonny</h3>
+            <div class="stars">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide box">
+            <img src="images/image13.jpg" alt="image15"/>
+            <p>I'm a huge fan of the classic caramel flavor, and Alpenliebe nails it! The smoothness and richness of the caramel taste make these candies a comforting indulgence after a long day.</p>
+            <h3>Elizabeth</h3>
+            <div class="stars">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide box">
+            <img src="images/image14.jpg" alt="image16"/>
+            <p>I've tried various candies, but Alpenliebe stands out with its delightful taste. The individually wrapped pieces are handy, and the fruity flavors are a hit with my kids, making them a family favorite.</p>
+            <h3>Sara</h3>
+            <div class="stars">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half"></i>
+            </div>
+         </div>
+      </div> 
+   </div>
+</section>
+<!--footer code-->
+<section class="footer">
+   <div class="box-container">
+      <div class="box">
+         <h3>Alpenliebe<i class="fa fa-shopping-basket"></i></h3>
+         <p>Feel free To Follow Us On Our Social Media Handlers All The Links Are Given Below</p>
+         <div class="share">
+            <a href="#" class="fa-brands fa-facebook-f"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>Contact Info</h3>
+         <a href="#" class="links"><i class="fa fa-envelope"></i>Alpenliebe@gmail.com</a>
+         <a href="#" class="links"><i class="fa fa-map-marker"></i>Toronto,Ontario-L6U2K9</a>
+      </div>   
+
+      <div class="box">
+         <h3>Ouick links</h3>
+         <a href="#" class="links"><i class="fa fa-arrow-right"></i>Home</a>
+         <a href="#" class="links"><i class="fa fa-arrow-right"></i>Features</a>
+         <a href="#" class="links"><i class="fa fa-arrow-right"></i>Products</a>
+         <a href="#" class="links"><i class="fa fa-arrow-right"></i>Reviews</a>
+      </div>   
+
+      <div class="box">
+         <h3>Newsletter</h3>
+         <p>Subscribe For Latest Updates</p>
+         <input type="email" placeholder="Your Email" class="email">
+         <input type="submit" value="subscribe" class="btn">
+         <img src="images/payment.png" alt="image17" class="payment-img">
+         </div>
+
+   </div>
+   <div class="credit">Created by <span>Karan</span> | All Right Reserved</div>
+</section>
+<!--javascript code-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
